@@ -16,13 +16,10 @@ public enum GreetingsEmail
 }
 
 //This is the repository for the Komodo outings with the POCOs...
- public class Greetingss
+ public class Greetings
 {
     public DateTime GreetingsDate { get; set;}
-    public 
-
-    
-    public Greetings(string outingDate, string numberOfPeople, double costPerPerson, double totalCostPerPerson, string typeOfOuting)
-     
+    (string outingDate, string numberOfPeople, double costPerPerson, double totalCostPerPerson, string typeOfOuting)
+}
         
     
