@@ -11,15 +11,15 @@ public enum GreetingsEmail
 {
     WeHaveTheLowestRates = 1,
     ThankYouForYourLoyaltyHeresYourDiscountCoupon,
-    ItsBeenALongTimeSinceWeHeardFromYou,
-    WeWantYouBack,
+    ItsBeenALongTimeSinceWeHeardFromYouWeWantYouBack,
+    
 }
 
 //This is the repository for the Komodo outings with the POCOs...
  public class Greetings
 {
     public DateTime GreetingsDate { get; set;}
-    (string outingDate, string numberOfPeople, double costPerPerson, double totalCostPerPerson, string typeOfOuting)
+    
 }
         
     

@@ -15,7 +15,7 @@ public class GreetingsRepo
         return new List<Greetings>(_listOfGreetings);
       }
      //Update greetings...
-     public bool UPdateGreetings(string greetings, GreetingsRepo newGreetings)
+     public bool UpdateGreetings(string greetings, GreetingsRepo newGreetings)
 
          //Find that greetings content...
      Greetings oldContent = GetGreetingsList(greetings);
