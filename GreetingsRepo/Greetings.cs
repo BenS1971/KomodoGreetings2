@@ -3,15 +3,15 @@ namespace GreetingsRepo.repository;
 public enum GreetingsType
 {
     PotentialCustomer = 1,
-    CurrentLoyalCustomer,
-    PastLoyalty,
-    DesireForACustomerToReturn,
+    CurrentLoyalCustomer =2,
+    PastLoyalty =3,
+    DesireForACustomerToReturn =4,
 }
 public enum GreetingsEmail
 {
     WeHaveTheLowestRates = 1,
-    ThankYouForYourLoyaltyHeresYourDiscountCoupon,
-    ItsBeenALongTimeSinceWeHeardFromYouWeWantYouBack,
+    ThankYouForYourLoyaltyHeresYourDiscountCoupon =2,
+    ItsBeenALongTimeSinceWeHeardFromYouWeWantYouBack =3,
     
 }
 
