@@ -1,3 +1,4 @@
+
 namespace GreetingsRepo.repository;
 
 public enum GreetingsType
@@ -23,6 +24,11 @@ public enum GreetingsEmail
     public string? GreetingsType { get; set;}
 
     public string? GreetingsEmail { get; set; }
+
+    internal static void Add(Repository.GreetingsRepo greetings)
+    {
+        throw new NotImplementedException();
+    }
 }
         
     

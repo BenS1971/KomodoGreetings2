@@ -1,4 +1,6 @@
-﻿namespace GreetingsRepo.Repository;
+﻿using GreetingsRepo.repository;
+
+namespace GreetingsRepo.Repository;
 
 public class GreetingsRepo
 {
@@ -7,7 +9,7 @@ public class GreetingsRepo
    {
      public void AddGreetingsToList(GreetingsRepo greetings)
       {
-        _greetings.Add(greetings);
+        Greetings.Add(greetings);
       }
      //Read Greetings...
      public List<GreetingsRepo> GetGreetingList(greetings);
