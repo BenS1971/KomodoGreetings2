@@ -1,5 +1,6 @@
 using System.ComponentModel.Design;
 
+
 public class ProgramUI
 {
     public void Run()
@@ -27,10 +28,13 @@ public class ProgramUI
          switch (input)
             {
             case "1":
+               SendGreetingToCurrentCustomer();
                break;
             case "2":
+                SendGreetingToPastCustomer();
                 break;
             case "3":
+                SendGreetingToNewCustomer();
                 break;
             case "4":
                 System.Console.WriteLine("Goodbye.");
@@ -46,4 +50,29 @@ public class ProgramUI
             System.Console.Clear();
         }
     }
+    // Send Greetings to Current Customer
+    
+    public void SendGreetingToCurrentCustomer();
+    {
+        
+    
+    }
+    //Send Greetings to Past Customer
+    
+    public void SendGreetingToPastCustomer();
+    {
+
+    }
+
+    // Send a greeting to a new and/or prospective customer
+
+    public void SendGreetingToNewCustomer();
+    {
+
+    }
+    
+
+    
+
+
 }

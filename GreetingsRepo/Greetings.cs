@@ -15,11 +15,14 @@ public enum GreetingsEmail
     
 }
 
-//This is the repository for the Komodo outings with the POCOs...
+//This is the repository for the Komodo Greetings with the POCOs...
  public class Greetings
 {
     public DateTime GreetingsDate { get; set;}
-    
+
+    public string? GreetingsType { get; set;}
+
+    public string? GreetingsEmail { get; set; }
 }
         
     
